@@ -1,0 +1,8 @@
+sudo: required
+dist: trusty
+
+language: cpp
+
+script:
+  - g++ -o cpp-raw-string-literals cpp-raw-string-literals.cpp
+  - ./cpp-raw-string-literals
